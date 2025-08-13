@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/         # Installed npm packages (huge, don't commit)
+.pnpm-debug.log*       # pnpm debug log files
+
+# Environment variables
+.env                   # Environment config (secrets)
+.env.local             # Local-only env overrides
+
+# Build outputs
+dist/                  # Build folder (frontend, backend compiled files)
+build/                 # Alternative build folder
+
+# IDE files
+.vscode/               # VS Code settings
+.idea/                 # JetBrains IDE settings
+
+# OS generated files
+.DS_Store              # Mac OS finder file
+Thumbs.db               # Windows thumbnail cache
+
+# Logs
+npm-debug.log*         # npm error/debug logs
+yarn-debug.log*        # yarn error/debug logs
